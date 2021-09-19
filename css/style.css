@@ -1,0 +1,158 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200italic,regular&display=swap&subset=cyrillic-ext");
+
+@font-face {
+	font-family: "PF BeauSans Pro";
+	src: url("../fonts/PFBeauSansPro-Bold.woff2") format("woff2"), url("../fonts/PFBeauSansPro-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PF BeauSans Pro";
+	src: url("../fonts/PFBea	uSansPro-SemiBoldItalic.woff2") format("woff2"),
+		url("../fonts/PFBeauSansPro-SemiBoldItalic.woff") format("woff");
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* основная масса текста */
+}
+body {
+	font-family: "Montserrat", sans-serif;
+	line-height: 1;
+	background-color: aquamarine;
+}
+/* ------------------------------ */
+
+.header {
+	padding-bottom: 50px;
+}
+
+p {
+	line-height: 150%;
+	text-indent: 30px;
+	padding-bottom: 10px;
+}
+
+.top h1 {
+	font-family: "PF BeauSans Pro", sans-serif;
+	font-size: 40px;
+	text-shadow: -3px 2px 1px rgb(255, 159, 159);
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.night__butterfly,
+.night__butterfly2 {
+	font-family: "Montserrat";
+	font-style: italic;
+	padding-bottom: 50px;
+	text-indent: -8px;
+	text-align: right;
+}
+
+.night__butterfly2 {
+	text-align: center;
+}
+
+.text {
+	color: rgba(117, 3, 247, 0.616);
+	word-spacing: 10px;
+}
+
+.text1 {
+	color: #e96565;
+	word-spacing: 50px;
+	text-align: justify;
+}
+
+.text2 {
+	text-transform: lowercase;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.text3 {
+	text-transform: uppercase;
+	text-align: right;
+	text-decoration: line-through;
+}
+
+.text4 {
+	text-decoration: line-through;
+	letter-spacing: -150px;
+	text-decoration: line-through;
+}
+
+.list > li {
+	text-decoration: overline;
+	letter-spacing: 10px;
+}
+
+.text5 {
+	color: #ff6347;
+	text-shadow: -10px -3px 1px #1604646c;
+}
+
+.text6 {
+	word-spacing: -5px;
+	color: #800080;
+	line-height: 200%;
+	letter-spacing: 10px;
+	padding-bottom: 50px;
+}
+
+.img1 {
+	text-align: right;
+}
+
+.img2 {
+	text-align: center;
+}
+
+span {
+	font-family: "PF BeauSans Pro", sans-serif;
+}
+
+.jump li {
+	padding-bottom: 50px;
+}
+
+.validator {
+	padding-top: 50px;
+}
