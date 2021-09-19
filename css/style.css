@@ -12,7 +12,7 @@
 
 @font-face {
 	font-family: "PF BeauSans Pro";
-	src: url("../fonts/PFBea	uSansPro-SemiBoldItalic.woff2") format("woff2"),
+	src: url("../fonts/PFBeauSansPro-SemiBoldItalic.woff2") format("woff2"),
 		url("../fonts/PFBeauSansPro-SemiBoldItalic.woff") format("woff");
 	font-weight: 600;
 	font-style: italic;
